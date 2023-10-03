@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(243, 243, 243);
+}
+
+.teste{
+  display: flex;
+  flex-direction: row;
+}
+
+.butaoAddCartao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10%;
+  margin-bottom: 40%;
+}
+
+.butaoAddCartao a {
+  text-decoration: none;
+  color: #a2a1a1; 
+  cursor: pointer;
+  transition: 0.1s;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.butaoAddCartao a:hover {
+  color: #2a3f89;
+}
+
+.butaoAddCartao button{
+  background-color: #a2a1a1;
+  transition: 0.1s;
+}
+
+.butaoAddCartao button:hover{
+  background-color: #2a3f89;
+}
+
